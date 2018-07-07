@@ -1,7 +1,9 @@
 public class Zadanie2 {
     public static void main(String[] args) {
-        Cup cup1 = new Cup();
-        Cup cup2 = new Cup();
+        Cup cup1 = new Cup("Kubek", "Czerwony",250, 10.5  );
+        Cup cup2 = new Cup("Kufel", "Transparentny", 500, 13.8);
+
+/*
 
         cup1.cupColor = "Czerwony";
         cup1.cupCapacity = 250;
@@ -12,7 +14,7 @@ public class Zadanie2 {
         cup2.cupCapacity = 500;
         cup2.cupHeight = 13.8;
         cup2.cupType = "Kufel";
-
+*/
 
         System.out.println(cup1.cupColor + " " + cup1.cupType + " Pojemność: " + cup1.cupCapacity + " Wysokość: " + cup1.cupHeight);
         System.out.println(cup2.cupColor + " " + cup2.cupType + " Pojemność: " + cup2.cupCapacity + " Wysokość: " + cup2.cupHeight);
